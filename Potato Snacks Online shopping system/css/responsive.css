@@ -1,0 +1,283 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (min-width: 1200px) {
+}
+@media screen and (min-width: 992px) and (max-width: 1199px)  {
+    .navmenu {
+        border-radius: 0 0 50px 50px;
+    }
+} 
+@media screen and (min-width: 577px) and (max-width: 991px)  {
+    .navmenu {
+        border-radius: 0 0 20px 20px
+    }
+    .logo {
+        width: 108px;
+        height: 48px;
+        margin: 3px auto;
+        float: inherit;
+    }
+    .logo img {
+        object-position: center;
+    }    
+    .menu_collapse {
+        display: block;
+    }
+    .menubar {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        bottom: 0;
+        width: 80%;
+        max-width: 250px;
+        height: 100vh;
+        background: #fff;
+        display: block;
+        float: inherit;
+        justify-content: start;
+        align-items: inherit;
+        z-index: 9999999;
+    }   
+    .menubar.open{
+        left: 0%;
+    } 
+    .menubar ul {
+        display: block;
+        margin-right: 0;
+        text-align: left;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 70px;
+        overflow: auto;
+    }
+    .menubar ul li a{
+        line-height: 1;
+        padding: 14px 18px;
+        border-bottom: 1px solid #f0f0f0;
+    }
+    
+    .menubar ul li a.active::after{
+        content: "";
+        display: block;
+        width: 11px;
+        height: 100%;
+        background: var(--color1);
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        right: 0;
+        clip-path: polygon(100% 46%, 0 0, 0 100%);
+    }
+    .menu_btn{
+        display: flex;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        height: 70px;
+        width: 100%;
+        justify-content: space-around;    
+        border-top: 1px solid #d1d1d1;
+    }
+    .cartbtn {
+        margin-left: 0;
+        color: #000;
+        position: absolute;
+        float: inherit;
+        margin-top: 0;
+        top: 0;
+        right:20px;
+        bottom: 0;
+        margin: auto;
+        width: 43px;
+        height: 37px;
+    }
+    .banner_item {
+        width: 100%;
+        height: 508px;
+    }
+    .category_img {
+        width: 100%;
+        height: 220px;
+    }
+    .inner_banner {
+        width: 100%;
+        height: 180px;
+    }
+    
+    
+}
+@media only screen and (max-width : 576px) {
+    .navmenu {
+        border-radius: 0 0 20px 20px
+    }
+    .logo {
+        width: 108px;
+        height: 48px;
+        margin: 3px auto;
+        float: inherit;
+    }
+    .logo img {
+        object-position: center;
+    }    
+    .menu_collapse {
+        display: block;
+    }
+    .menubar {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        bottom: 0;
+        width: 80%;
+        max-width: 250px;
+        height: 100vh;
+        background: #fff;
+        display: block;
+        float: inherit;
+        justify-content: start;
+        align-items: inherit;
+        z-index: 9999999;
+    }   
+    .menubar.open{
+        left: 0%;
+    } 
+    .menubar ul {
+        display: block;
+        margin-right: 0;
+        text-align: left;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 70px;
+        overflow: auto;
+    }
+    .menubar ul li a{
+        line-height: 1;
+        padding: 14px 18px;
+        border-bottom: 1px solid #f0f0f0;
+    }
+    .menubar ul li a.active::after{
+        content: "";
+        display: block;
+        width: 11px;
+        height: 100%;
+        background: var(--color1);
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        right: 0;
+        clip-path: polygon(100% 46%, 0 0, 0 100%);
+    }
+    .menu_btn{
+        display: flex;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        height: 70px;
+        width: 100%;
+        justify-content: space-around;    
+        border-top: 1px solid #d1d1d1;
+    }
+    .overlay_banner p {
+        font-size: 12px;
+    }
+    .cartbtn {
+        margin-left: 0;
+        color: #000;
+        position: absolute;
+        float: inherit;
+        margin-top: 0;
+        top: 0;
+        right:10px;
+        bottom: 0;
+        margin: auto;
+        width: 43px;
+        height: 37px;
+    }
+    .overlay_banner h1 {
+        font-size: 32px;
+    }
+    .banner_item {
+        width: 100%;
+        height: 73vh;
+    }
+    .category_img {
+        width: 100%;
+        height: 150px;
+        margin-bottom: 13px;
+    }
+    .category_bx, .category_bx a {
+        font-size: 12px;
+    }    
+    .secrchcontent {
+        display: block;
+    }
+    .secrchcontent h3 {
+        font-size: 19px;
+    }
+    .secrchcontent input {
+        margin: 10px 0;
+    }    
+    .secrchcontent .btn {
+        width: 100%;
+    }
+    .contact_bx h3 {
+        font-size: 0.9rem;
+    }
+    .contact_bx h1 {
+        color: #fff;
+        font-size: 1.4rem;
+    }   
+    .inner_banner {
+        width: 100%;
+        height: 180px;
+    }
+    .prod_bx {
+        padding: 0.5rem;
+        margin-bottom: 0px;
+    }
+    .prod_img {
+        width: 100%;
+        height: 110px;
+    }
+    .prod_details h3 {
+        font-size: 14px;
+    }
+    .prod_details small {
+        font-size: 10px;
+    }
+    .prod_details h4 {
+        font-size: 15px;
+    }
+    .prod_details h4 del {
+        font-size: 10px;
+    }
+    .button_dtls .btn {
+        padding: 4px 5px;
+    }
+    .food-listing {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    .food-listing .col-6.col-sm-4.col-lg-3 {
+        padding: 3px;
+    }
+    .success_odr h1{
+        font-size: 16px;
+        margin: 0;
+        text-align: center;
+    }
+    .odr-img {
+        width: 50px;
+        height: 50px;
+    }
+    .order_bx table tr td{
+        font-size: 12px;
+    }
+}
+

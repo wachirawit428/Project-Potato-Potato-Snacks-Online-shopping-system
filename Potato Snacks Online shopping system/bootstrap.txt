@@ -1,0 +1,5 @@
+https://getbootstrap.com/docs/4.0/utilities/colors/
+
+------------------------------------
+alerts!!!
+https://getbootstrap.com/docs/4.0/components/alerts/
